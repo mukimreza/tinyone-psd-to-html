@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+/* header start */
+header{
+	background: #fcdb00;
+	padding: 10px 0;
+}
+.menu ul li {
+	padding: 0 30px;
+}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 22px;
+	color: #010101 !important;
+}
+.banner{
+	background: #fcdb00;
+	padding: 80px 0;
+}
+.banner-content{
+	margin-top: 80px;
+	color: #010101;
+}
+.banner-content h1{
+	font-weight: 700;
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+.banner-content h3{
+	font-size: 20px;
+}
+.banner-content ul li a{
+	color: #010101;
+	font-size: 35px;
+	padding: 0 10px;
+}
+.custom-controlar{
+	bottom: -50px;
+}
+.custom-controlar li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #feed80;
+	transition: .3s;
+	border: 0;
+}
+
+.custom-controlar li:hover{
+	background: #000;
+} 
+.custom-controlar .active{
+	background: #000;
+}
+/* features start  */
+.features{
+	padding: 80px 0;
+}
+.title{}
+.title h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.title p{
+	color: #313841;
+	font-size: 20px;
+}
+.icon i{
+	font-size: 50px;
+	color: #010101;
+}
+.icon-content h3{
+	font-size: 22px;
+	color: #010101;
+	font-weight: 400;
+}
+.icon-content p{
+	font-size: 16px;
+	color: #898989;
+}
+/* contact start */
+.contact {
+	background: #010101;
+	padding: 80px 0;
+}
+.contact .title h1{
+	color: #fcdb00;
+}
+.contact .title p{
+	color: #898989;
+	font-size: 20px;
+}
+.custom-input{
+	padding: 22px 15px;
+	color: #898989;
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+}
+.custom-btn{
+	padding: 10px 35px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #010101;
+	background:#fcdb00 ;
+}
+.social ul li a i{
+	font-size: 40px;
+	color: #fcdb00;
+	background-color: #010101;
+}
+   /* footer start  */
+.footer{
+	background-color: #010101;
+	color: #fff;
+	padding: 0 0 80px;
+}
+.footer-menu ul{
+	list-style: none;
+}
+.footer-menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	transition: .3s;
+	padding: 5px 0;
+	display: inline-block;
+} 
+.footer-menu ul li:hover a{
+	color: #fcdb00;
+} 
